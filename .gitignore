@@ -1,0 +1,16 @@
+# .gitignore
+
+# Terraform state files
+*.tfstate
+*.tfstate.backup
+
+# Terraform local directories
+.terraform/
+
+# Local configuration files
+.terraformrc
+.terraform-version
+
+# Exclude backend configuration file
+backend.tf
+.terraform.lock.hcl
